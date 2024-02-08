@@ -37,11 +37,11 @@ export default function App() {
   const roomID = getUrlParams().get('roomID') || randomID(5);
   let myMeeting = async (element: HTMLDivElement) => {
     const userID = randomID(5);
-    const userName = randomID(5);
+    const userName = Timer Bot;
     // generate token
     generateToken('https://nextjs-token.vercel.app/api', userID).then((res) => {
       const token = ZegoUIKitPrebuilt.generateKitTokenForProduction(
-        1484647939,
+        1774958609,
         res.token,
         roomID,
         userID,
